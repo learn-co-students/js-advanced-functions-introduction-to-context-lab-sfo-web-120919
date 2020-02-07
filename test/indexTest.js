@@ -316,6 +316,7 @@ describe("The payroll system", function () {
               })
             }) 
             expect(calculatePayroll(employeeRecords)).to.eql(12480) // changed from 11880
+            // https://repl.it/repls/DarkorangeLumberingReentrant for tests
           })
         })
       })
